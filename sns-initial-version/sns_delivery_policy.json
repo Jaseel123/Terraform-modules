@@ -1,0 +1,17 @@
+{
+  "http": {
+    "defaultHealthyRetryPolicy": {
+      "numRetries": 3,
+      "numNoDelayRetries": null,
+      "minDelayTarget": 20,
+      "maxDelayTarget": 20,
+      "numMinDelayRetries": null,
+      "numMaxDelayRetries": null,
+      "backoffFunction": "linear"
+    },
+    "disableSubscriptionOverrides": false,
+    "defaultRequestPolicy": {
+      "headerContentType": "application/json"
+    }
+  }
+}
